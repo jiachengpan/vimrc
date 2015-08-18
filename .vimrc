@@ -616,3 +616,6 @@ nnoremap <leader>,, :YcmDiags<CR>
 nnoremap <leader>n :lnext<CR> 
 nnoremap <leader>p :lprevious<CR> 
 nnoremap <leader>,m :lclose<CR> 
+
+" similar function as latext-suite
+inoremap <c-j> <Esc>/<++><CR><Esc>cf>
